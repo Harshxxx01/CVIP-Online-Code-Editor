@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editor</title>
+    <link rel="icon" href="images/logo.png.png" type="x-icon/images">
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <section class="container">
+        <h1><img src="images/logo.png.png" height="25">&nbsp;Code Editor</h1>
+        <div class="editor">
+            <div class="left">
+                <label><img src="images/HTML5_badge.png" height="20">&nbsp; Html</label>
+                <textarea onkeyup="run()" spellcheck="false" id="html-code"></textarea>
+                <label><img src="images/file_type_css_icon_130661.png"height="20">&nbsp;Css</label>
+                <textarea onkeyup="run()" spellcheck="false" id="css-code"></textarea>
+                <label> <img src="images/js-logo-png-5.png"height="17">&nbsp; JavaScript</label>
+                <textarea onkeyup="run()" spellcheck="false" id="js-code"></textarea>
+            </div>
+            <div class="right">
+                <label><img src="images/26983-windows-media-player-play-button-images.png" height="20">&nbsp;Output</label>
+                <iframe id="output"></iframe>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

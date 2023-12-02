@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+
+h1{
+    background-color: rgba(22, 22, 90, 0.716);
+    padding: 10px;
+    color: white;
+}
+
+.editor{
+    text-align: start;
+    display: flex;
+    padding: 1rem;
+}
+
+.left, .right{
+    flex-basis: 50%;
+    padding: 10px;
+}
+
+label{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    background-color: rgb(107, 107, 107);
+    padding: 1.5px;
+}
+
+textarea{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    color: white;
+    border: 0;
+    outline: 0;
+    font-size: 12px;
+    padding: 10px 20px;
+}
+
+iframe{
+    width: 100%;
+    height: 97%;
+    background-color: white;
+    border: 0;
+    outline: 0;
+    font-size: 0;
+}
